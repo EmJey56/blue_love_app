@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62995218277",
+    "project_id": "bluelovenotif",
+    "storage_bucket": "bluelovenotif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62995218277:android:ba0c4b89c6915f40186b8c",
+        "android_client_info": {
+          "package_name": "com.example.blue_love_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62995218277-r9hklsherp6g2p9s1be9j8sgb88mp8n7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0d6GRBa2hRhaeMXWO50h4pa4EDGA1HWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62995218277-r9hklsherp6g2p9s1be9j8sgb88mp8n7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
