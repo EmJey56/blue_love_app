@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                         AsyncSnapshot<BandSate> snapshot) {
                       return CustomCircle(
                         children: [
-                          Padding(padding: new EdgeInsets.all(100)),
+                          Padding(padding: new EdgeInsets.all(85)),
                           Text("آخرین پیام"),
                           Container(
                               padding: EdgeInsets.only(right: 15),
@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                                   borderRadius: BorderRadius.circular(50),
                                   color: Colors.green),
                               child: Text(
-                                "عدم اتصال",
+                                "دستگاه متصل",
                                 textAlign: TextAlign.end,
                                 style: TextStyle(fontWeight: FontWeight.bold),
                               )),
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                           CustomButton(
                             buttonText: "عاشقتم عزیزترینم",
                             selectHandler: _sendText,
-                            colorBtn: Colors.red,
+                            colorBtn: Colors.green,
                             isSelected: snapshot.data != null &&
                                 snapshot.data! is ChangeMessage &&
                                 (snapshot.data! as ChangeMessage).color == 1,
@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                           CustomButton(
                             buttonText: "عاشقتم عزیزترینم",
                             selectHandler: _sendText,
-                            colorBtn: Colors.blue,
+                            colorBtn: Colors.red,
                             isSelected: snapshot.data != null &&
                                 snapshot.data! is ChangeMessage &&
                                 (snapshot.data! as ChangeMessage).color == 2,
@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                           CustomButton(
                             buttonText: "عاشقتم عزیزترینم",
                             selectHandler: _sendText,
-                            colorBtn: Colors.green,
+                            colorBtn: Colors.blueAccent,
                             isSelected: snapshot.data != null &&
                                 snapshot.data! is ChangeMessage &&
                                 (snapshot.data! as ChangeMessage).color == 3,
@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                           CustomButton(
                             buttonText: "عاشقتم عزیزترینم",
                             selectHandler: _sendText,
-                            colorBtn: Colors.orange,
+                            colorBtn: Colors.yellow,
                             isSelected: snapshot.data != null &&
                                 snapshot.data! is ChangeMessage &&
                                 (snapshot.data! as ChangeMessage).color == 4,
@@ -103,10 +103,26 @@ class _HomePageState extends State<HomePage> {
                           CustomButton(
                             buttonText: "عاشقتم عزیزترینم",
                             selectHandler: _sendText,
-                            colorBtn: Colors.brown,
+                            colorBtn: Colors.purple,
                             isSelected: snapshot.data != null &&
                                 snapshot.data! is ChangeMessage &&
                                 (snapshot.data! as ChangeMessage).color == 5,
+                          ),
+                          CustomButton(
+                            buttonText: "عاشقتم عزیزترینم",
+                            selectHandler: _sendText,
+                            colorBtn: Colors.lightBlue,
+                            isSelected: snapshot.data != null &&
+                                snapshot.data! is ChangeMessage &&
+                                (snapshot.data! as ChangeMessage).color == 6,
+                          ),
+                          CustomButton(
+                            buttonText: "عاشقتم عزیزترینم",
+                            selectHandler: _sendText,
+                            colorBtn: Colors.white70,
+                            isSelected: snapshot.data != null &&
+                                snapshot.data! is ChangeMessage &&
+                                (snapshot.data! as ChangeMessage).color == 7,
                           ),
                         ],
                       );
